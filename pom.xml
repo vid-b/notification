@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sap.dsc.ac</groupId>
+	<artifactId>notification</artifactId>
+	<version>1.30.0</version>
+	<packaging>jar</packaging>
+
+	<parent>
+		<groupId>com.sap.dsc</groupId>
+		<artifactId>ac</artifactId>
+		<version>1.28.0</version>
+	</parent>
+
+	<properties>
+		<junit.version>4.12</junit.version>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.sap.dsc.ac</groupId>
+			<artifactId>utility</artifactId>
+			<version>1.30.0-20190513080016+0289e78b62dab0b5b3c3b6f7253e3e1c9b045ad9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.dsc.ac</groupId>
+			<artifactId>groups</artifactId>
+			<version>1.28.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.dsc.ac</groupId>
+			<artifactId>document</artifactId>
+			<version>1.30.0-20190506160832+088553c01e1ac834dba0051a63c66a8f76a4f2e1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.dsc.ac</groupId>
+			<artifactId>externalids</artifactId>
+			<version>1.30.0-20190509110100+9d98978aaf9e7abd0b8b61dd6c45eaf0fb65b556</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.dsc.ac</groupId>
+			<artifactId>integration</artifactId>
+			<version>1.30.0-20190510173616+63885ca2d3b28a71e1889d31d7271f7f2c3559fe</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.dsc.ac</groupId>
+			<artifactId>template</artifactId>
+			<version>1.28.0-20190510165415+4d283df1749eeb1a9edf0eca87464e326a0f50f9</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sap.dsc.ac</groupId>
+			<artifactId>reusable</artifactId>
+			<version>1.28.1-20190509081814+76298d892594f0136041a56fe6965e27bdd5e588</version>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-core</artifactId>
+			<version>1.6.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-module-junit4</artifactId>
+			<version>1.6.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.powermock</groupId>
+			<artifactId>powermock-api-mockito</artifactId>
+			<version>1.6.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>1.10.19</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.core.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>4.3.18.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.9.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-joda</artifactId>
+			<version>2.9.6</version>
+		</dependency>
+
+	</dependencies>
+	<build>
+
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,80 @@
+{
+  "client": {
+    "client": null
+  },
+  "id": "06a6c08e0320491d86ad4f1d4a2b636e",
+  "externalId": "NOT-277333421",
+  "notificationId": "06a6c08e0320491d86ad4f1d4a2b636e",
+  "equipmentId": "354780EB6B3D401EBCAEB9B054289948",
+  "type": "M2",
+  "priority": 10,
+  "startDate": null,
+  "endDate": 1545868800000,
+  "malfunctionStartDate": 1542752542000,
+  "malfunctionEndDate": 1542803686000,
+  "isInternal": "0",
+  "isMarkedForDeletion": "0",
+  "locationId": "9717B24EFBFE4BE2BE0903D3B72F852E",
+  "breakdown": "0",
+  "geometry": null,
+  "operator": "B958BA189BA54843BA0F4716CCCA5C3B",
+  "internalId": "NT.SAPMAN.161",
+  "confirmedFailureModeID": "61521C0AF2004349A65FDF6E66E3B712",
+  "proposedFailureModeID": "3A3B9870E70A47A69B415435F123D931",
+  "systemProposedFailureModeID": "",
+  "effectID": "1634F732F6044F07B533BC9DEBC6988D",
+  "causeID": "27978C22FDE047A0902AF46222B5BE8F",
+  "instructionID": "A568C1FD8EFC483E8463A4CEBE5D000C",
+  "status": [{
+    "id": "06a6c08e0320491d86ad4f1d4a2b636e",
+    "status": "IPR"
+  }],
+  "descriptions": [{
+    "client": {
+      "client": null
+    },
+    "notificationID": "06a6c08e0320491d86ad4f1d4a2b636e",
+    "languageISOCode": "en",
+    "shortDescription": "Notification short desc",
+    "longDescription": "Notification long desc",
+    "systemAdministrativeData": {
+      "systemAdministrativeDataCreatedByUserID": "AC26BBE50EDE41F69D6A11D4C33727A2",
+      "systemAdministrativeDataCreationDateTime": 1507746600000,
+      "systemAdministrativeDataLastChangedByUserID": "AC26BBE50EDE41F69D6A11D4C33727A2",
+      "systemAdministrativeDataLastChangeDateTime": 1507487400000
+    }
+  }],
+  "notificationItemEntity": [{
+    "client": {
+      "client": null
+    },
+    "itemNumber": 2,
+    "notificationId": "06a6c08e0320491d86ad4f1d4a2b636e",
+    "shortDescription": "Test search Item4",
+    "longDescription": "Notification long descItem4",
+    "notificationCauseCodesEntity": [{
+      "client": {
+        "client": null
+      },
+      "itemNumber": 2,
+      "notificationId": "06a6c08e0320491d86ad4f1d4a2b636e",
+      "causeId": "FC464A169F0945338CD8773E48084F61",
+      "causeDescription": "Failure due to heat",
+      "notificationItemEntityForCauseCodes": null
+    }],
+    "notificationFailureModesEntity": {
+      "client": {
+        "client": null
+      },
+      "itemNumber": 2,
+      "notificationId": "06a6c08e0320491d86ad4f1d4a2b636e",
+      "failureModeId": "99BBD51958E34D88991FA8B85CEF8721"
+    }
+  }],
+  "systemAdministrativeData": {
+    "systemAdministrativeDataCreatedByUserID": "AC26BBE50EDE41F69D6A11D4C33727A2",
+    "systemAdministrativeDataCreationDateTime": 1507746600000,
+    "systemAdministrativeDataLastChangedByUserID": "AC26BBE50EDE41F69D6A11D4C33727A2",
+    "systemAdministrativeDataLastChangeDateTime": 1507487400000
+  }
+}

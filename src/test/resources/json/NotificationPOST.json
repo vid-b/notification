@@ -1,0 +1,69 @@
+{
+   "externalID":"NOT-277333421",
+   "externalSystemID": "BCAB8EEE3C684862AEF12A658A94573B",
+   "equipmentID":"354780EB6B3D401EBCAEB9B054289948",
+   "locationID": "9717B24EFBFE4BE2BE0903D3B72F852E",
+   "breakdown":"0",
+   "type":"M2",
+   "priority":"10",
+   "status":[ 
+      "IPR"
+   ],
+   "startDate": null,
+   "endDate":"2018-12-27",
+   "malfunctionStartDate":"2018-11-20T22:22:22",
+   "malfunctionEndDate":"2018-11-21T12:34:46",
+   "description":{ 
+   	  "languageISoCode": "en",
+      "shortDescription":"Notification short desc",
+      "longDescription":"Notification long desc"
+   },
+   "adminData":{ 
+      "createdBy":"AC26BBE50EDE41F69D6A11D4C33727A2",
+      "createdOn":"2017-10-12",
+      "changedBy":"AC26BBE50EDE41F69D6A11D4C33727A2",
+      "changedOn":"2017-10-09"
+   },
+   "geometry":{ 
+      "type":"Point",
+      "coordinates":[ 
+         31.81640625,
+         22.737918592173564
+      ]
+   },
+   "operator":"B958BA189BA54843BA0F4716CCCA5C3B",
+   "workCenterSystemId":"9DF64F58CF916838E10000000A78416B",
+   "workCenter":"BANGALORE-WC",
+   "maintenancePlanGroupSystemId":"9DF64F58CF916838E10000000A78416B",
+   "maintenancePlannerGroup": "BANGALORE-MP",
+   "alertIDs":[ 
+      { 
+         "id":"b6961304b6f44729bf48394ad3579747"
+      },
+      { 
+         "id":"e4bd1fbaf1f344ddbbbee2e1a3722c10"
+      }
+   ],
+   "items":[ 
+      { 
+         "itemNumber":"2",
+         "shortDescription":"Test search Item4",
+         "longDescription":"Notification long descItem4",
+         "notificationFailureModes":{ 
+            "failureModeID":"99BBD51958E34D88991FA8B85CEF8721"
+         },
+         "notificationCauseCodes":[ 
+            { 
+               "causeID":"FC464A169F0945338CD8773E48084F61",
+               "causeDescription":"Failure due to heat"
+            }
+         ]
+      }
+   ],
+   "proposedFailureModeID": "3A3B9870E70A47A69B415435F123D931",
+   "confirmedFailureModeID": "61521C0AF2004349A65FDF6E66E3B712",
+   "systemProposedFailureModeID":"",
+   "effectID":"1634F732F6044F07B533BC9DEBC6988D",
+   "causeID":"27978C22FDE047A0902AF46222B5BE8F",
+   "instructionID":"A568C1FD8EFC483E8463A4CEBE5D000C"
+}
